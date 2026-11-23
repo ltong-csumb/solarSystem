@@ -1,0 +1,99 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #101827;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: white;
+    margin: 0 0 25px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Navigation */
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #263b5a;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #4378b5;
+}
+
+/* Headings and P */
+h2, h3, p {
+    text-shadow: 1px 1px 4px black;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+/* Links */
+a {
+    color: #a9d6ff;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Planet and NASA Images */
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Planet Information */
+ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #101827;
+    color: white;
+    padding: 15px;
+    border-top: 4px solid #4378b5;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 3px;
+}
+
+#logo {
+    width: 150px;
+}
